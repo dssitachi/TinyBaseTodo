@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button"
+import NewTodo from "./NewTodo"
 
 function App() {
+  
   return (
     <div>
-      <Button>Click me</Button>
+      <NewTodo />
     </div>
   )
 }
